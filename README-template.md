@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/abhishekpm15/blog-preview-card.git](https://github.com/abhishekpm15/blog-preview-card.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://blog-preview-card-alpha-nine.vercel.app/](https://blog-preview-card-alpha-nine.vercel.app/)
 
 ## My process
 
