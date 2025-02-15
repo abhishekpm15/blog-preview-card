@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+
+
+  <style>
+
+    @font-face {
+      font-family: 'CustomFont';
+      src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+    }
+
+    body{
+      background-color: hsl(47, 88%, 63%);
+    }
+
+    main{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: full;
+      height: 100vh;
+    }
+
+    .card{
+      height: 522px;
+      width: 384px;
+      background-color: white;
+      border-radius: 20px;
+      border-style: solid;
+      box-shadow: 7px 7px;
+      transition: box-shadow 2s;
+    }
+
+    .card:hover{
+      transition: all;
+      box-shadow: 15px 15px;
+    }
+
+    .content{
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .image{
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    
+    img{
+      border-radius: 10px;
+    }
+
+    #badge{
+      width: 82px;
+      height: 29px;
+      background-color: hsl(47, 88%, 63%);
+      border-radius: 4px;
+      font-weight: 600;
+      text-align: center;
+      align-content: center;
+    }
+
+    .main-content{
+      margin: 25px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-family: CustomFont;
+    }
+
+    #head{
+      color: black;
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 5px;
+      transition: color 1s; 
+    }
+
+    .card:hover #head {
+      color: hsl(47, 88%, 63%);
+    }
+
+    #description{
+      color: #6B6B6B;
+      margin-top: 5px;
+    }
+
+    #user{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+  </style>
+</head>
+<body>
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Abhishek</a>.
+  </div> -->
+
+  <main>
+    <div class="card">
+      <div class="content">
+        <div class="image">
+          <img src="./assets/images/illustration-article.svg" alt="blog" height="200" />
+        </div>
+        <div class="main-content">
+          <div id="badge">Learning</div>
+          <div id="date-field">Published 21 Dec 2023</div>
+          <div id="head">HTML & CSS foundations</div>
+          <div id="description">These languages are the backbone of every website, defining structure, content, and presentation.</div>
+          <div id="user">
+            <img src="./assets/images/image-avatar.webp" alt="avatar" width="32" height="32"/>
+            <h4>Greg Hooper</h4>
+          </div>
+      </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
